@@ -48,7 +48,7 @@ function Register(props) {
 									<label htmlFor="dob">Date of Birth</label>
 									<input id="dob" type="date" className="form-control" name="dob" value="" required autofocus/>
 									<div className="invalid-feedback">
-										Shouldn't contain space and special characters or punctuations
+										Format should be dd/mm/yyyy
 									</div>
 								</div>
 
